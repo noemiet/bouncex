@@ -1,35 +1,56 @@
 /*************************
  *  your code goes here  *
  *************************/
+.logo{
+  position: absolute;
+  top: 30px;
+  padding-bottom: 40px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.bx-group-1{
+  margin-top: 40px;
+}
+.bxc .bx-creative .bx-row {
+  padding: 0px;
+}
 
 .bxc .bx-creative {
-    background-color: #ffc215;
-    padding: 60px 80px;
-    color: #000066;
+  background-color: #ffc215;
+  padding: 60px 80px;
+  color: #000066;
 }
 
 .bxc h3{
-    font-weight: 300;
-    font-size: 25px;
-    margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .bxc h2{
-    font-weight: 700;
-    font-size: 40px;
-    margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
 }
 
 .bxc h1{
-    font-weight: 700;
-    font-size: 62px;
-    margin: 0;
+  font-weight: 700;
+  font-size: 62px;
+  margin: 0;
+}
+.mb{
+  margin-bottom: 14px !important;
 }
 
 .corner{
   -webkit-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
--moz-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
+  box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
 }
 
 .bxc .bx-creative input[type="email"], .bxc .bx-creative input[type="number"], .bxc .bx-creative input[type="password"], .bxc .bx-creative input[type="search"], .bxc .bx-creative input[type="tel"], .bxc .bx-creative input[type="text"], .bxc .bx-creative input[type="url"], .bxc .bx-creative input[type="color"], .bxc .bx-creative input[type="date"], .bxc .bx-creative input[type="datetime"], .bxc .bx-creative input[type="datetime-local"], .bxc .bx-creative input[type="month"], .bxc .bx-creative input[type="time"], .bxc .bx-creative input[type="week"] {
@@ -37,22 +58,28 @@ box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
     -moz-box-shadow: inset -1px -1px 21px 0px rgba(0,0,0,0.45);
     box-shadow: inset -1px -1px 10px 0px rgba(0,0,0,0.45);
     border: 1px solid #fff;
-
   }
 
-  .bx-row-email{
-        margin-bottom: 20px;
-        -webkit-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
--moz-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
-  }
+.bx-row-email{
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
+  box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
+}
 
-  .bx-row-submit{
-    -webkit-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
--moz-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
-  }
-
+.bx-row-submit{
+-webkit-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
+  box-shadow: 0px 10px 45px -9px rgba(0,0,0,0.45);
+}
+.bxc .bx-creative input[type="submit"]{
+  background: #2859a4; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#2859a4, #01026c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#2859a4, #01026c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#2859a4, #01026c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#2859a4, #01026c); /* Standard syntax */
+  border: 0px;
+}
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   text-align: center;
   color: #c2c2c2;
