@@ -47,10 +47,27 @@
   margin-bottom: 14px !important;
 }
 
-.corner{
+#corner{
   -webkit-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
   -moz-box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
   box-shadow: -8px 10px 21px 0px rgba(0,0,0,0.45);
+  background: #262626;
+  width: 564px;
+  height: 121px;
+  left: 0;
+  top: 57px;
+  position: absolute;
+  box-shadow: 0 0 4px 0 #0c0c0c;
+}
+#corner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+  right: 0;
+    border-top: 130px solid #1a1a1a;
+    border-left: 130px solid rgba(0,0,0,0);
+    width: 0;
+
 }
 
 .bxc .bx-creative input[type="email"], .bxc .bx-creative input[type="number"], .bxc .bx-creative input[type="password"], .bxc .bx-creative input[type="search"], .bxc .bx-creative input[type="tel"], .bxc .bx-creative input[type="text"], .bxc .bx-creative input[type="url"], .bxc .bx-creative input[type="color"], .bxc .bx-creative input[type="date"], .bxc .bx-creative input[type="datetime"], .bxc .bx-creative input[type="datetime-local"], .bxc .bx-creative input[type="month"], .bxc .bx-creative input[type="time"], .bxc .bx-creative input[type="week"] {
